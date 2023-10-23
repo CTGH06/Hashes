@@ -1,7 +1,7 @@
-a = int("4")
-b = str("capstone")
-c = float("20")
+a = 4
+b = "capstone"
+c = 20.0
 
-print("The integer hash value is: " + str(hash(int)))
-print("The string hash value is: " + str(hash(str)))
-print("The float hash value is: " + str(hash(float)))
+print("The integer hash value is: " + str(hash(a)))
+print("The string hash value is: " + str(hash(b)))
+print("The float hash value is: " + str(hash(c)))
